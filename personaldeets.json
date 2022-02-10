@@ -1,12 +1,12 @@
-"primaryInformation": [
+{
+    "primaryInformation": [
     {
         "complete name": "Daniella Francine Pangilinan Velasquez",
         "gender / sex": "Female (F)",
         "age": "18",
-        "home address": "221B Baker St., London.",
-
+        "home address": "221B Baker St., London."
     }
-]
+],
 
 "academicBackground": [
     {
@@ -14,7 +14,16 @@
         "secondary education / middle":"British Columbia Junior High School",
         "tertiary education / high school":"Philippine Normal University",
         "college":"Polytechnic University of the Philippines",
-        "masteral degree":"Massachusetts Institute of Technology",
+        "masteral degree":"Massachusetts Institute of Technology"
     }
-]
+],
 
+"Achievements":[
+        "Supreme Student Government President (10th Grade)",
+        "Student Council Officer (from 4th Grade to 6th Grade)",
+        "Leadership Award",
+        "Outstanding Student Award",
+        "With High Honors (from 10th Grade to 12th Grade)",
+        "Elementary English Quizbee Yearly Participant"
+]
+}

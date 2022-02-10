@@ -25,5 +25,22 @@
         "Outstanding Student Award",
         "With High Honors (from 10th Grade to 12th Grade)",
         "Elementary English Quizbee Yearly Participant"
+],
+"skills":[
+    "Computer Proficiency",
+    "Leadership Experience",
+    "Communication Skills",
+    "Collaboration Talent",
+    "Easy Adaptability",
+    "Time Management"
+], 
+
+"contactInformation":[
+    {
+        "mobile number": "09123456789",
+        "email address": "itsmedanivelas@gmail.com",
+        "telephone number": "443-8795"
+    }
 ]
+
 }

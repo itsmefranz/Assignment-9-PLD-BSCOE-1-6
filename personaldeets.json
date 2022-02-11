@@ -1,13 +1,13 @@
 {
-    "complete name": "Daniella Francine Pangilinan Velasquez",
-    "gender / sex": "Female (F)",
+    "complete_name": "Daniella Francine Pangilinan Velasquez",
+    "gender_sex": "Female (F)",
     "age": "18",
-    "home address": "221B Baker St., London.",
-    "primary education / basic": "Yukon Elementary School",
-    "secondary education / middle":"British Columbia Junior High School",
-    "tertiary education / high school":"Philippine Normal University",
+    "home_address": "221B Baker St., London.",
+    "primaryeducation_basic": "Yukon Elementary School",
+    "secondaryeducation_middle":"British Columbia Junior High School",
+    "tertiaryeducation_high school":"Philippine Normal University",
     "college":"Polytechnic University of the Philippines",
-    "masteral degree":"Massachusetts Institute of Technology",
+    "masteral_degree":"Massachusetts Institute of Technology",
     "achievement1":"Supreme Student Government President (10th Grade)",
     "achievement2":"Student Council Officer (from 4th Grade to 6th Grade)",
     "achievement3":"Leadership Award",
@@ -20,7 +20,9 @@
     "skills4":"Collaboration Talent",
     "skills5":"Easy Adaptability",
     "skills6":"Time Management",
-    "mobile number": "09123456789",
-    "email address": "itsmedanivelas@gmail.com",
-    "telephone number": "443-8795"
+    "mobile_number": "09123456789",
+    "email_address": "itsmedanivelas@gmail.com",
+    "telephone_number": "443-8795",
+    "title": "MY PERSONAL RESUME"
 }
+

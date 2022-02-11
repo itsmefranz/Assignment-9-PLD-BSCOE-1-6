@@ -1,46 +1,26 @@
 {
-    "primaryInformation": [
-    {
-        "complete name": "Daniella Francine Pangilinan Velasquez",
-        "gender / sex": "Female (F)",
-        "age": "18",
-        "home address": "221B Baker St., London."
-    }
-],
-
-"academicBackground": [
-    {
-        "primary education / basic": "Yukon Elementary School",
-        "secondary education / middle":"British Columbia Junior High School",
-        "tertiary education / high school":"Philippine Normal University",
-        "college":"Polytechnic University of the Philippines",
-        "masteral degree":"Massachusetts Institute of Technology"
-    }
-],
-
-"Achievements":[
-        "Supreme Student Government President (10th Grade)",
-        "Student Council Officer (from 4th Grade to 6th Grade)",
-        "Leadership Award",
-        "Outstanding Student Award",
-        "With High Honors (from 10th Grade to 12th Grade)",
-        "Elementary English Quizbee Yearly Participant"
-],
-"skills":[
-    "Computer Proficiency",
-    "Leadership Experience",
-    "Communication Skills",
-    "Collaboration Talent",
-    "Easy Adaptability",
-    "Time Management"
-], 
-
-"contactInformation":[
-    {
-        "mobile number": "09123456789",
-        "email address": "itsmedanivelas@gmail.com",
-        "telephone number": "443-8795"
-    }
-]
-
+    "complete name": "Daniella Francine Pangilinan Velasquez",
+    "gender / sex": "Female (F)",
+    "age": "18",
+    "home address": "221B Baker St., London.",
+    "primary education / basic": "Yukon Elementary School",
+    "secondary education / middle":"British Columbia Junior High School",
+    "tertiary education / high school":"Philippine Normal University",
+    "college":"Polytechnic University of the Philippines",
+    "masteral degree":"Massachusetts Institute of Technology",
+    "achievement1":"Supreme Student Government President (10th Grade)",
+    "achievement2":"Student Council Officer (from 4th Grade to 6th Grade)",
+    "achievement3":"Leadership Award",
+    "achievement4":"Outstanding Student Award",
+    "achievement5":"With High Honors (from 10th Grade to 12th Grade)",
+    "achievement6":"Elementary English Quizbee Yearly Participant",
+    "skills1":"Computer Proficiency",
+    "skills2":"Leadership Experience",
+    "skills3":"Communication Skills",
+    "skills4":"Collaboration Talent",
+    "skills5":"Easy Adaptability",
+    "skills6":"Time Management",
+    "mobile number": "09123456789",
+    "email address": "itsmedanivelas@gmail.com",
+    "telephone number": "443-8795"
 }

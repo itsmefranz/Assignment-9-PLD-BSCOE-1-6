@@ -46,14 +46,25 @@ telnumber= resumedata["telephone_number"]
 title=resumedata['title']
 
 resume= FPDF('P', 'mm', 'Letter')
-resume.add_page()
-resume.image('bg.png', x = -0.5, y= -0.5, w = resume.w + 1)
+resume.add_page() #adds a page within the PDF file
+resume.image('bg.png', x = -0.5, y= -0.5, w = resume.w + 1) #I added a background image for design (most resume examples have their own bg design)
 
 resume.set_font('Helvetica', 'B', 30)
-resume.image('2x2.png', 10, 13, 40, 0)
-resume.set_text_color(255,255,255)
+resume.image('2x2.png', 10, 13, 40, 0) #my picture, located at the top right corner of the file
+resume.set_text_color(255,255,255) #white font color in contrast with the partial color of the background
 resume.set_margins(top=20, left=20, right=20)
 resume.cell(220, 15, title,  align='C', ln=True)
-resume.image('line.png', x = 41, y= 0, w = resume.w -10)
+resume.image('line.png', x = 41, y= 0, w = resume.w -10) #line for design
+
+resume.set_font('helvetica', 'B', 18)
+resume.set_text_color(0,0,0) #set font color to black once again to contrast light colors of the background
+resume.cell(0, 20, "", align='L', ln=True) #cell division to manage the space
+resume.cell(0, 15, "Primary Information", align='L', ln=True) #title
+resume.set_font('courier', '', 13)
+resume.cell(0, 2,"Complete Name     : " + str(resumedata["complete_name"]), align='L', ln=True)
+resume.cell(0, 7,"Gender / Sex      : " + str(resumedata["gender_sex"]), align='L', ln=True)
+resume.cell(0, 3,"Age               : " + str(resumedata["age"]), align='L', ln=True)
+resume.cell(0, 6,"Home Address      : " + str(resumedata["home_address"]), align='L', ln=True)
+
 
 resume.output('VELASQUEZ_DANIELLAFRANCINE.pdf')

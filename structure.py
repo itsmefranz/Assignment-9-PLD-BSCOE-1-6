@@ -106,6 +106,5 @@ resume.cell(0, 2,"Email Address     :  " + str(resumedata["email_address"]), ali
 resume.cell(0, 8,"Mobile Number     :  " + str(resumedata["mobile_number"]), align='L', ln=True)
 resume.cell(0, 4,"Telephone Number  :  " + str(resumedata["telephone_number"]), align='L', ln=True)
 resume.line(20, 227, 160, 227) # line for pdf after each cell
-resume.image('line.png', x = 41, y= -25, w = resume.w + 5)
 
-resume.output('VELASQUEZ_DANIELLAFRANCINE.pdf')
+resume.output('VELASQUEZ_DANIELLAFRANCINE.pdf') # saves the pdf with the program code along with its stated filename

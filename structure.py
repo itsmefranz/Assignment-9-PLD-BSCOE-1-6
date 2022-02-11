@@ -14,6 +14,7 @@
 #	- Your code should be in github before Feb12
 
 import json
+from turtle import width
 from fpdf import FPDF
 
 with open('personaldeets.json') as jsonFILE:
@@ -74,15 +75,28 @@ resume.cell(0, 8,"Secondary Education  : " + str(resumedata["secondaryeducation_
 resume.cell(0, 4,"Tertiary Education   : " + str(resumedata["tertiaryeducation_high school"]), align='L', ln=True)
 resume.cell(0, 7,"College              : " + str(resumedata["college"]), align='L', ln=True)
 resume.cell(0, 6,"Masteral Degree      : " + str(resumedata["masteral_degree"]), align='L', ln=True)
+resume.line(20, 90, 160, 90)
 
 resume.set_font('helvetica', 'B', 18) # for the title, helvetica, set to bold, 18 fsize
 resume.cell(0,15, "Achievements", align='L', ln=True) # title
 resume.set_font('courier','', 13) # courier font, no emphasis, 13 fsize
-resume.cell(0, 2,"A.  : " + str(resumedata["achievement1"]), align='L', ln=True)
-resume.cell(0, 8,"B.  : " + str(resumedata["achievement1"]), align='L', ln=True)
-resume.cell(0, 4,"C.  : " + str(resumedata["achievement1"]), align='L', ln=True)
-resume.cell(0, 7,"D.  : " + str(resumedata["achievement4"]), align='L', ln=True)
-resume.cell(0, 6,"E.  : " + str(resumedata["achievement5"]), align='L', ln=True)
-resume.cell(0, 6,"F.  : " + str(resumedata["achievement6"]), align='L', ln=True)
+resume.cell(0, 2,"a.  " + str(resumedata["achievement1"]), align='L', ln=True)
+resume.cell(0, 8,"b.  " + str(resumedata["achievement1"]), align='L', ln=True)
+resume.cell(0, 4,"c.  " + str(resumedata["achievement1"]), align='L', ln=True)
+resume.cell(0, 7,"d.  " + str(resumedata["achievement4"]), align='L', ln=True)
+resume.cell(0, 6,"e.  " + str(resumedata["achievement5"]), align='L', ln=True)
+resume.cell(0, 6,"f.  " + str(resumedata["achievement6"]), align='L', ln=True)
+resume.line(20, 132, 160, 132)
+
+resume.set_font('helvetica', 'B', 18) # for the title, helvetica, set to bold, 18 fsize
+resume.cell(0,15, "Skills", align='L', ln=True) # title
+resume.set_font('courier','', 13) # courier font, no emphasis, 13 fsize
+resume.cell(0, 2,"a.  " + str(resumedata["skills1"]), align='L', ln=True)
+resume.cell(0, 8,"b.  " + str(resumedata["skills1"]), align='L', ln=True)
+resume.cell(0, 4,"c.  " + str(resumedata["skills1"]), align='L', ln=True)
+resume.cell(0, 7,"d.  " + str(resumedata["skills4"]), align='L', ln=True)
+resume.cell(0, 6,"e.  " + str(resumedata["skills5"]), align='L', ln=True)
+resume.cell(0, 6,"f.  " + str(resumedata["skills6"]), align='L', ln=True)
+resume.line(20, 180, 160, 180)
 
 resume.output('VELASQUEZ_DANIELLAFRANCINE.pdf')

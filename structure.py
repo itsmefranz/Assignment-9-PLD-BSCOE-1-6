@@ -49,4 +49,11 @@ resume= FPDF('P', 'mm', 'Letter')
 resume.add_page()
 resume.image('bg.png', x = -0.5, y= -0.5, w = resume.w + 1)
 
+resume.set_font('Helvetica', 'B', 30)
+resume.image('2x2.png', 10, 13, 40, 0)
+resume.set_text_color(255,255,255)
+resume.set_margins(top=20, left=20, right=20)
+resume.cell(220, 15, title,  align='C', ln=True)
+resume.image('line.png', x = 41, y= 0, w = resume.w -10)
+
 resume.output('VELASQUEZ_DANIELLAFRANCINE.pdf')
